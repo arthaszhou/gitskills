@@ -1,3 +1,4 @@
+#define BUF_SIZE 64
 #include "stdafx.h"
 #include<WINSOCK2.H>
 #include<string>
@@ -5,7 +6,7 @@
 #include <iomanip>
 #include <fstream>
 #pragma comment(lib,"WS2_32.lib")
-#define BUF_SIZE 64
+
 
 using namespace std;
 
